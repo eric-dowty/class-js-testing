@@ -1,3 +1,4 @@
+//= require magic_lamp
 // Teaspoon includes some support files, but you can use anything from your own support path too.
 // require support/expect
 // require support/sinon
@@ -39,4 +40,4 @@ window.assert = chai.assert;
 // window.expect = chai.expect;
 // window.should = chai.should();
 
-//= magic_lamp
+
