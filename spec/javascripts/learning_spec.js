@@ -5,10 +5,10 @@ describe('my test suite', function() {
   //   assert(true);
   // });
 
-  // it('actually works', function(){
-  //   MagicLamp.load('ideas/index');
-  //   assert.equal($('.ideas').length, 1);
-  // });
+  it('actually works', function(){
+    MagicLamp.load('ideas/index');
+    assert.equal($('.ideas').length, 1);
+  });
 
   describe('how to async', function () {
     it('can assert after an AJAX call', function (done) {
