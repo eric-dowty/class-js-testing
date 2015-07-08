@@ -1,9 +1,10 @@
-MagicLamp.fixture do 
-
+MagicLamp.fixture do
+  
   Idea.create([
-    { title: "First idea", body: "this is the first body" },
-    { title: "Second idea", body: "this is the second body" }
+    { title: 'First Idea', body: 'Wowowow' },
+    { title: 'Second Idea', body: 'Hehehehe' }
   ])
-
+  
   render template: 'ideas/index'
+
 end
